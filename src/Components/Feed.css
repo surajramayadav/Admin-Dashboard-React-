@@ -1,0 +1,132 @@
+.feed {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.searchbar {
+  margin: 3%;
+  flex: 0.2;
+
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 50%;
+}
+.right {
+}
+
+.middle-bar {
+  flex: 2.5;
+  display: flex;
+  margin: 2%;
+  border-radius: 2%;
+  background-color: #1a1b37;
+}
+.outside {
+  flex: 2;
+  padding-left: 10%;
+}
+
+.inside {
+  flex: 1;
+  margin: 2%;
+  background-color: #5c65fe;
+  border-radius: 5%;
+}
+
+.box {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.inside-box {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5%;
+}
+.inside-box-1 {
+  flex: 1;
+  margin: 5%;
+  border-radius: 5%;
+  background-color: #646ef5;
+}
+.inside-box-2 {
+  flex: 1;
+  margin: 5%;
+}
+.inside-box-main {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5%;
+}
+.inside-box-3 {
+  flex: 1;
+  margin: 5%;
+  border-radius: 5%;
+  background-color: #646ef5;
+}
+.inside-box-4 {
+  flex: 1;
+  margin: 5%;
+}
+
+.end-bar {
+  margin: 1%;
+  flex: 2;
+  display: flex;
+}
+
+.img-side {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 5%;
+  background-color: #eeba17;
+  justify-content: space-between;
+}
+.img-side-inside-1 {
+  flex: 1.5;
+}
+.img-side-inside-2 {
+  flex: 1;
+  margin: 5%;
+  border-radius: 5%;
+  background-color: white;
+}
+.img-outside {
+  flex: 3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1%;
+  border-radius: 5%;
+}
+.img-outside-inside-1 {
+  flex: 1;
+  padding-right: 15%;
+  background-color: white;
+}
+.img-outside-inside-2 {
+  flex: 1.5;
+  display: flex;
+  justify-content: space-around;
+}
+.img-outside-inside-2-1 {
+  background-color: #f3f7ff;
+  width: 15%;
+  padding-left: 3%;
+}
+.img-outside-inside-2-2 {
+  width: 15%;
+  padding-left: 3%;
+  background-color: #f3f7ff;
+}
+.img-outside-inside-2-3 {
+  width: 15%;
+  padding-left: 3%;
+  background-color: #f3f7ff;
+}

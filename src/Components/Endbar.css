@@ -1,0 +1,40 @@
+.endbar-start {
+  height: 100vh;
+  display: flex;
+  padding-left: 5%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.endbar-start-1 {
+  flex: 0.4;
+  display: flex;
+  justify-content: flex-end;
+}
+.endbar-start-2 {
+  flex: 2;
+}
+
+.endbar-start-3 {
+  flex: 1;
+}
+
+.endbar-start-4 {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.endbar-cant-2 {
+  margin-top: 2%;
+  width: 90%;
+  height: 60%;
+  background-color: #f3f7ff;
+}
+.avtar-outer {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row-1 {
+  display: flex;
+
+  margin-right: 30%;
+}
