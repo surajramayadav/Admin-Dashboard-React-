@@ -82,6 +82,7 @@
 .img-side {
   display: flex;
   flex-direction: column;
+
   flex: 1;
   border-radius: 5%;
   background-color: #eeba17;
@@ -100,6 +101,7 @@
   flex: 3;
 
   display: flex;
+
   flex-direction: column;
   justify-content: space-between;
   margin: 1%;
@@ -113,6 +115,7 @@
 .img-outside-inside-2 {
   flex: 1.5;
   display: flex;
+
   justify-content: space-around;
 }
 .img-outside-inside-2-1 {
@@ -129,4 +132,30 @@
   width: 15%;
   padding-left: 3%;
   background-color: #f3f7ff;
+}
+
+@media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .middle-bar {
+    display: flex;
+    margin: 2%;
+    border-radius: 2%;
+    flex-direction: column;
+    background-color: #1a1b37;
+  }
+  .end-bar {
+    margin: 1%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-side {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex: 1;
+    border-radius: 5%;
+    background-color: #eeba17;
+    justify-content: space-between;
+  }
 }

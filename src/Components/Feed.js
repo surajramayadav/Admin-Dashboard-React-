@@ -146,6 +146,7 @@ export default function Feed() {
             Stock exceeding
           </h6>
           <h6 style={{ color: "white", paddingLeft: 20 }}>sales By 25%</h6>
+          <br />
         </div>
       </div>
       <div className="end-bar">

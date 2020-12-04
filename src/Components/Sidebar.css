@@ -9,6 +9,7 @@
 
   padding-left: 10%;
 }
+
 .heading {
   flex: 0.6;
 
@@ -23,6 +24,7 @@
   border-radius: 5%;
   flex: 1;
   margin-right: 10%;
+  margin-bottom: 10%;
 }
 ul {
   list-style-type: none;

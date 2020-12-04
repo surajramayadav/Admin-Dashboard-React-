@@ -18,3 +18,18 @@
 .container2 {
   flex: 1;
 }
+.sidefloat {
+  visibility: hidden;
+}
+
+@media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .container {
+    visibility: hidden;
+  }
+  .container2 {
+    visibility: hidden;
+  }
+  .container1 {
+    position: absolute;
+  }
+}
